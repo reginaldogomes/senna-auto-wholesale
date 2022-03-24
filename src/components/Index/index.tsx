@@ -1,5 +1,5 @@
 import Container from './style'
-import Logo from '../Logo/logo'
+import Logo from 'components/Logo/logo'
 
 const Index = () => {
     return (

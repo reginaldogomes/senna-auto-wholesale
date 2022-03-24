@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Index from '../components/Index'
+import Index from 'components/Index'
 
 const Home: NextPage = () => {
     return <Index />
