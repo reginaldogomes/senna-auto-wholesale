@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
-import MainContainer from 'components/Layout/MainContainer'
 import '../styles/global.css'
+import MainContainer from 'components/Layout/MainContainer'
 
 function App({ Component, pageProps }: AppProps) {
     return (
