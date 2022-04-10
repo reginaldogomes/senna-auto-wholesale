@@ -1,5 +1,7 @@
-import Logo from 'components/Logo/logo'
 import { useState } from 'react'
+import Link from 'next/link'
+
+import Logo from 'components/Logo/logo'
 
 export const NavBar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false)
@@ -29,33 +31,20 @@ export const NavBar = () => {
                     id="example-navbar-danger"
                 >
                     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-                        <li className="nav-item">
-                            <a
-                                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-primary hover:opacity-75"
-                                href="#pablo"
-                            >
-                                <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
-                                <span className="ml-2">Sell</span>
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a
-                                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-primary hover:opacity-75"
-                                href="#pablo"
-                            >
-                                <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                                <span className="ml-2">About Us</span>
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a
-                                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-primary hover:opacity-75"
-                                href="#pablo"
-                            >
-                                <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
-                                <span className="ml-2">Contact Us</span>
-                            </a>
-                        </li>
+                        {[
+                            ['Home', '/home'],
+                            ['Sell', '/sell'],
+                            ['About Us', '/about-us'],
+                            ['Contact Us', '/contact-us']
+                        ].map(([title, url]) => (
+                            <li className="nav-item" key={title}>
+                                <Link href={url}>
+                                    <a className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">
+                                        {title}
+                                    </a>
+                                </Link>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>

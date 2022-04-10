@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
-import Index from 'components/Index'
 
 const Home: NextPage = () => {
-    return <Index />
+    return <h1>Home</h1>
 }
 
 export default Home

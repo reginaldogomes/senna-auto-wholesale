@@ -1,5 +1,9 @@
 import { NavBar } from './NavBar'
 
 export const Header = () => {
-    return <NavBar />
+    return (
+        <header className="border-b-2 border-b-primary">
+            <NavBar />
+        </header>
+    )
 }
