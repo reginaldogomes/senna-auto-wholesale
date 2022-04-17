@@ -1,11 +1,10 @@
 import { Button } from 'components/common/Button/Index'
+import { Slide } from 'components/common/Slide/Index'
 
 const Index = () => {
     return (
         <>
-            <h1 className="text-3xl font-bold underline">
-                SENNA AUTO WHOLESALE
-            </h1>
+            <Slide />
             <Button />
         </>
     )
