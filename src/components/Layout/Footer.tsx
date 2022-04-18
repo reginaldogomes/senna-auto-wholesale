@@ -71,8 +71,8 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className="text-center p-4 bg-gray-100">
-                © 2021 Copyright: Senna Whole Sale
+            <div className="text-center text-xs font-sans text-gray-300 p-4 bg-gray-100">
+                © 2022 Copyright - Senna Whole Sale
             </div>
         </footer>
     )
