@@ -1,7 +1,8 @@
+import { HeadingPage } from 'components/Layout/HeadingPage'
 import type { NextPage } from 'next'
 
 const Sell: NextPage = () => {
-    return <h1>Sell</h1>
+    return <HeadingPage title={'Sell'} />
 }
 
 export default Sell
