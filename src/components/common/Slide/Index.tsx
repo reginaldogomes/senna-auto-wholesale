@@ -1,7 +1,7 @@
 export const Slide = () => {
     return (
-        <div className="relative w-full h-full overflow-hidden bg-fixed bg-black-700  bg-gradient-to-r from-orange-400 via-red-500 to-pink-500">
-            <div className="flex justify-center items-center h-full">
+        <div className="w-full bg-orange-200">
+            <div className="flex justify-center items-center h-full py-12">
                 <div className="text-center text-white px-6 md:px-12">
                     <h1 className="text-5xl font-bold mt-0 mb-6">Heading</h1>
                     <h3 className="text-3xl font-bold mb-8">Subeading</h3>
