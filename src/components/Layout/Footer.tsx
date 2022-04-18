@@ -72,13 +72,7 @@ export const Footer = () => {
             </div>
 
             <div className="text-center p-4 bg-gray-100">
-                © 2021 Copyright:
-                <a
-                    className="text-whitehite"
-                    href="https://tailwind-elements.com/"
-                >
-                    Senna Whole Sale
-                </a>
+                © 2021 Copyright: Senna Whole Sale
             </div>
         </footer>
     )
