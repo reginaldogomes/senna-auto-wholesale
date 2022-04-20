@@ -1,6 +1,6 @@
 export const Slide = () => {
     return (
-        <div className="w-full bg-orange-200">
+        <div className="w-full block bg-orange-200">
             <div className="flex justify-center items-center h-full py-12">
                 <div className="text-center text-white px-6 md:px-12">
                     <h1 className="text-5xl font-bold mt-0 mb-6">Heading</h1>
