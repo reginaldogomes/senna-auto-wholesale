@@ -11,7 +11,7 @@ export default function MainContainer(props: LayoutProps) {
         <>
             <Header />
 
-            <main className={`flex justify-center items-center w`}>
+            <main className={`flex-col justify-center items-center w`}>
                 {props.children}
             </main>
 
