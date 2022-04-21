@@ -9,7 +9,7 @@ export const HeadingPage = (props: HeadingPageProps) => {
                 <div className="basis-1/2">
                     <h1 className="text-4xl">{props.title}</h1>
                 </div>
-                <div className="basis-1/2">
+                <div className="basis-1/5">
                     <nav className="rounded-md">
                         <ol className="list-reset flex">
                             <li>
