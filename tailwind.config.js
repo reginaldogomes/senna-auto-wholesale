@@ -9,7 +9,10 @@ module.exports = {
               primary: '#06306E',
               yellow: '#FFB627',
               green: '#05773B'
-          }
+          },
+          fontFamily: {
+            Rampart: ["Roboto", "sans-serif"],
+           },
       },
     },
     plugins: [],
