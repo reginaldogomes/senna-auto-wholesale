@@ -11,10 +11,10 @@ export const HeadingPage = (props: HeadingPageProps) => {
                 </div>
                 <div className="basis-1/5">
                     <nav className="rounded-md">
-                        <ol className="list-reset flex">
+                        <ol className="list-reset flex text-xs">
                             <li>
                                 <a
-                                    href="#"
+                                    href="/"
                                     className="text-blue-600 hover:text-blue-700"
                                 >
                                     Home
@@ -23,7 +23,7 @@ export const HeadingPage = (props: HeadingPageProps) => {
                             <li>
                                 <span className="text-gray-500 mx-2">/</span>
                             </li>
-                            <li className="text-gray-500">Library</li>
+                            <li className="text-gray-500">{props.title}</li>
                         </ol>
                     </nav>
                 </div>
