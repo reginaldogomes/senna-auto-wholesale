@@ -30,8 +30,7 @@ export const NavBar = () => {
                     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                         {[
                             ['Home', '/'],
-                            ['Sell', '/sell'],
-                            ['About Us', '/about-us'],
+                            ['Sell Your Car', '/sell'],
                             ['Contact Us', '/contact-us']
                         ].map(([title, url]) => (
                             <li className="nav-item" key={title}>
