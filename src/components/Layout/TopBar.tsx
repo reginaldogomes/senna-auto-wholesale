@@ -6,7 +6,7 @@ import { MdOutlineMail } from 'react-icons/md'
 export const TopBar = () => {
     return (
         <div className="bg-gray-100 bg-opacity-25 hidden md:block py-2">
-            <div className="container flex mx-auto">
+            <div className="max-w-7xl flex mx-auto">
                 <div className="basis-1/2">
                     <ul className="flex align-middle">
                         <li className="p-1 w-40 text-xl">
