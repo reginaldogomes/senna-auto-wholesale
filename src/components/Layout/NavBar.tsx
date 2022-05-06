@@ -22,7 +22,7 @@ export const NavBar = () => {
                                 </Link>
                                 <Link href="/sell">
                                     <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-sm font-medium">
-                                        Sell Yout Car
+                                        Sell Your Car
                                     </a>
                                 </Link>
 
