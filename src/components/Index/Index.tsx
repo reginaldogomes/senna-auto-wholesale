@@ -6,7 +6,7 @@ const Index = () => {
         <>
             <div className="w-full flex flex-col flex-wrap">
                 <section className="container m-auto">
-                    <div className="flex mb-4">
+                    <div className="flex mb-4 sm:flex-col">
                         <div className="w-1/2 py-5">
                             <img
                                 src="images/sell-your-car-web.jpg"

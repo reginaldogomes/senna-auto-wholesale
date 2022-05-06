@@ -16,18 +16,18 @@ export const NavBar = () => {
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 <Link href="/">
-                                    <a className=" hover:bg-gray-700 text-primary px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-xg font-medium">
                                         Home
                                     </a>
                                 </Link>
                                 <Link href="/sell">
-                                    <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-sm font-medium">
                                         Sell Yout Car
                                     </a>
                                 </Link>
 
                                 <Link href="/contact-us">
-                                    <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-sm font-medium">
                                         Contact Us
                                     </a>
                                 </Link>
