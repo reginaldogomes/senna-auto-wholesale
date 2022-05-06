@@ -6,8 +6,8 @@ const Index = () => {
         <>
             <div className="w-full flex flex-col flex-wrap">
                 <section className="container m-auto">
-                    <div className="flex flex-col md:flex-wrap mb-4">
-                        <div className="py-5">
+                    <div className="container flex flex-wrap lg:flex-nowrap mb-4">
+                        <div className="lg:w-1/2 py-5">
                             <img
                                 src="images/sell-your-car-web.jpg"
                                 className="max-w-full h-auto rounded-lg"
