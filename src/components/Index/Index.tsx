@@ -51,14 +51,14 @@ const Index = () => {
                 </section>
                 <section className="container m-auto bg-yellow bg-opacity-5 p-6 mt-10">
                     <ul className="flex flex-wrap shrink lg:flex-nowrap">
-                        <li className="w-full h-5 bg-yellow bg-opacity-7 m-2 rounded">
-                            <FaWhatsapp className="m-auto text-7xl" />
+                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
+                            <FaWhatsapp className="m-auto text-7xl text-blue" />
                         </li>
-                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded">
-                            <FaWhatsapp className="m-auto" />
+                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
+                            <FaWhatsapp className="m-auto text-7xl text-blue" />
                         </li>
-                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded">
-                            <FaWhatsapp className="m-auto" />
+                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
+                            <FaWhatsapp className="m-auto text-7xl text-blue" />
                         </li>
                     </ul>
                 </section>
