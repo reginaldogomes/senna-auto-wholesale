@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Title } from 'components/common/Title/Index'
-import { FaBars } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const Index = () => {
     return (
@@ -17,15 +17,15 @@ const Index = () => {
                                 />
                             </div>
                             <div className="bg-white pt-8 px-8">
-                                <h1 className="text-7xl text-blue xs:text-lg">
+                                <h1 className="text-5xl text-blue lg:text-7xl">
                                     Sell <strong>your</strong> car
                                 </h1>
-                                <h2 className="text-4xl text-blue pt-4">
+                                <h2 className="text-2xl text-blue lg:text-4xl pt-4">
                                     <strong>Get</strong> a free
                                     <strong> appraisal</strong> in minutes
                                 </h2>
                                 <Link href="/sell">
-                                    <a className="inline-block mt-5 px-7 py-3 bg-yellow text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+                                    <a className="inline-block w-full lg:max-w-xs text-center mt-5 px-7 py-3 bg-yellow text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
                                         appraisal
                                     </a>
                                 </Link>
@@ -33,9 +33,9 @@ const Index = () => {
                         </div>
                     </div>
                 </section>
-                <section className="container m-auto bg-yellow bg-opacity-5 p-6">
+                <section className="container m-auto text-blue bg-yellow bg-opacity-5 p-6">
                     <Title title="About Us" />
-                    <p className="mt-15">
+                    <p className="mt-5 sm:text-center">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the industrys
                         standard dummy text ever since the 1500s, when an
@@ -49,16 +49,16 @@ const Index = () => {
                         PageMaker including versions of Lorem Ipsum.
                     </p>
                 </section>
-                <section className="w-full bg-black p-6">
-                    <ul className="flex bg-yellow bg-opacity-5">
-                        <li className="bg-yellow bg-opacity-6 m-2 rounded justify-center">
-                            <FaBars />
+                <section className="container m-auto bg-yellow bg-opacity-5 p-6 mt-6">
+                    <ul className="flex flex-wrap shrink lg:flex-nowrap">
+                        <li className="w-full h-5 bg-yellow bg-opacity-7 m-2 rounded overflow-hidden">
+                            <FaWhatsapp className="m-auto text-7xl" />
                         </li>
-                        <li className="bg-yellow bg-opacity-6 m-2 rounded">
-                            <FaBars />
+                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded">
+                            <FaWhatsapp className="m-auto" />
                         </li>
-                        <li className="bg-yellow bg-opacity-6 m-2 rounded">
-                            <FaBars />
+                        <li className="w-full bg-yellow bg-opacity-7 m-2 rounded">
+                            <FaWhatsapp className="m-auto" />
                         </li>
                     </ul>
                 </section>
