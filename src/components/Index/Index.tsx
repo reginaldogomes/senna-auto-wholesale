@@ -17,10 +17,10 @@ const Index = () => {
                                 />
                             </div>
                             <div className="bg-white pt-8 px-8">
-                                <h1 className="text-5xl text-blue lg:text-7xl">
+                                <h1 className="text-5xl text-center text-blue lg:text-7xl lg:text-left">
                                     Sell <strong>your</strong> car
                                 </h1>
-                                <h2 className="text-2xl text-blue lg:text-4xl pt-4">
+                                <h2 className="text-2xl text-center text-blue lg:text-4xl lg:text-left pt-4">
                                     <strong>Get</strong> a free
                                     <strong> appraisal</strong> in minutes
                                 </h2>
@@ -51,7 +51,7 @@ const Index = () => {
                 </section>
                 <section className="container m-auto bg-yellow bg-opacity-5 p-6 mt-6">
                     <ul className="flex flex-wrap shrink lg:flex-nowrap">
-                        <li className="w-full h-5 bg-yellow bg-opacity-7 m-2 rounded overflow-hidden">
+                        <li className="w-full h-5 bg-yellow bg-opacity-7 m-2 rounded">
                             <FaWhatsapp className="m-auto text-7xl" />
                         </li>
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded">
