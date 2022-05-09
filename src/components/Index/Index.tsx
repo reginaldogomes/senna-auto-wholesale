@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { Title } from 'components/common/Title/Index'
 import { FaWhatsapp } from 'react-icons/fa'
+import { FaPhone } from 'react-icons/fa'
+import { FiMail } from 'react-icons/fi'
 
 const Index = () => {
     return (
@@ -53,12 +55,21 @@ const Index = () => {
                     <ul className="flex flex-wrap shrink lg:flex-nowrap">
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
                             <FaWhatsapp className="m-auto text-7xl text-blue" />
+                            <span className="m-auto text-base text-blue text-center block mt-5">
+                                6031112298
+                            </span>
                         </li>
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
-                            <FaWhatsapp className="m-auto text-7xl text-blue" />
+                            <FiMail className="m-auto text-7xl text-blue" />
+                            <span className="m-auto text-base text-blue text-center block mt-5">
+                                sales@sennaautowholesale.com
+                            </span>
                         </li>
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
-                            <FaWhatsapp className="m-auto text-7xl text-blue" />
+                            <FaPhone className="m-auto text-7xl text-blue" />
+                            <span className="m-auto text-base text-blue text-center block mt-5">
+                                6031112298
+                            </span>
                         </li>
                     </ul>
                 </section>
