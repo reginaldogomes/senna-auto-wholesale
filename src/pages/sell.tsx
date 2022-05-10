@@ -1,14 +1,13 @@
 import type { NextPage } from 'next'
-
-import { HeadingPage } from 'components/Layout/HeadingPage'
+import { Title } from 'components/common/Title/Index'
 import { SellForm } from 'components/SellForm/SellForm'
 
 const Sell: NextPage = () => {
     return (
         <>
-            <HeadingPage title={'Sell'} />
-            <div className="flex flex-col flex-wrap">
-                <section className="container m-auto py-16">
+            <div className="flex flex-row">
+                <section className="container m-auto">
+                    <Title title="Sell Your Car" />
                     <SellForm />
                 </section>
             </div>

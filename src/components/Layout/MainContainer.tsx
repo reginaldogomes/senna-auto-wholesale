@@ -10,11 +10,7 @@ export default function MainContainer(props: LayoutProps) {
     return (
         <div className="flex flex-col min-h-screen">
             <Header />
-            <main
-                className={`max-w-7xl mx-auto flex-col justify-center items-center`}
-            >
-                {props.children}
-            </main>
+            <main className={`container mx-auto`}>{props.children}</main>
             <Footer />
         </div>
     )
