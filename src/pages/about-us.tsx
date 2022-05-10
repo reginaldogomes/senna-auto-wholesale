@@ -1,10 +1,8 @@
-import { HeadingPage } from 'components/Layout/HeadingPage'
 import type { NextPage } from 'next'
 
 const AboutUs: NextPage = () => {
     return (
         <>
-            <HeadingPage title={'About Us'} />
             <div className="flex flex-col flex-wrap">
                 <section className="container m-auto bg-white py-16">
                     <p>
