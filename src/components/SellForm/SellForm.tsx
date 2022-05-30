@@ -2,6 +2,10 @@ import { useState } from 'react'
 import { Button } from 'components/common/Button/Index'
 
 export const SellForm = () => {
+    const onSubmit = () => {
+        console.log('tese')
+    }
+
     return (
         <div className="flex flex-col max-w-5xl m-auto">
             <h3 className="text-2xl text-blue text-center">
@@ -171,7 +175,7 @@ export const SellForm = () => {
                     </label>
                 </div>
 
-                <Button title="Send Message" />
+                <Button title="Send Message" action={onSubmit} />
             </form>
         </div>
     )
