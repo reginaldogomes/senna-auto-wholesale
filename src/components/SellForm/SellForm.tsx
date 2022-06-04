@@ -115,7 +115,7 @@ export const SellForm = () => {
                 <div className="form-group mb-6">
                     <label>
                         <span className="text-gray-700 text-2xl font-normal">
-                            Select vehicle colour
+                            What can we help you with?
                         </span>
                         <select
                             id="countries"
@@ -174,7 +174,6 @@ export const SellForm = () => {
                         ></textarea>
                     </label>
                 </div>
-
                 <Button title="Send Message" action={onSubmit} />
             </form>
         </div>
