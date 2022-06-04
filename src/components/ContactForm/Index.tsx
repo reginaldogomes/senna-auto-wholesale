@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Button } from 'components/common/Button/Index'
 
 export const ContactForm = () => {
@@ -51,10 +52,21 @@ export const ContactForm = () => {
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                         >
                             <option selected></option>
-                            <option value="US">Blue</option>
-                            <option value="CA">Black</option>
-                            <option value="FR">White</option>
-                            <option value="DE">Yellow</option>
+                            <option value="US">
+                                General (How Clutch Works, Payment Methods)
+                            </option>
+                            <option value="CA">
+                                More information about a Clutch Vehicle
+                            </option>
+                            <option value="FR">
+                                Post Purchase Support/90-Day Guarantee Claims
+                            </option>
+                            <option value="DE">
+                                Selling/Trading In My Vehicle
+                            </option>
+                            <option value="DE">Financing With Clutch</option>
+                            <option value="DE">Pre-Order Vehicle Status</option>
+                            <option value="DE">Technical Support</option>
                         </select>
                     </label>
                 </div>
