@@ -15,18 +15,18 @@ export const NavBar = () => {
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <Link href="/">
+                                <Link href="/" passHref>
                                     <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-xg font-medium">
                                         Home
                                     </a>
                                 </Link>
-                                <Link href="/sell">
+                                <Link href="/sell" passHref>
                                     <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-sm font-medium">
                                         Sell Your Car
                                     </a>
                                 </Link>
 
-                                <Link href="/contact-us">
+                                <Link href="/contact-us" passHref>
                                     <a className="hover:bg-yellow text-blue px-3 py-2 rounded-md text-sm font-medium">
                                         Contact Us
                                     </a>

@@ -14,6 +14,7 @@ module.exports = {
             colors: {
                 blue: '#06306E',
                 yellow: '#FFB627',
+                red: '#FF3333',
                 green: '#05773B'
             },
             fontFamily: {

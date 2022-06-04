@@ -22,8 +22,8 @@ const Index = () => {
                                 Sell <strong>your</strong> car
                             </h1>
                             <h2 className="text-2xl text-center text-blue lg:text-4xl lg:text-left pt-4">
-                                <strong>Get</strong> a free
-                                <strong> appraisal</strong> in minutes
+                                Get an <strong>instant</strong> offer on your
+                                <strong> car</strong>
                             </h2>
                             <Link href="/sell">
                                 <a className="inline-block w-full lg:max-w-xs text-center mt-5 px-7 py-3 bg-yellow text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button } from 'components/common/Button/Index'
 
 export const SellForm = () => {
-    const onSubmit = () => {
+    const handleOnSubmit = () => {
         console.log('tese')
     }
 
@@ -36,7 +36,6 @@ export const SellForm = () => {
                             id="countries"
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                         >
-                            <option selected></option>
                             <option value="US">United States</option>
                             <option value="CA">Canada</option>
                             <option value="FR">France</option>
@@ -121,7 +120,6 @@ export const SellForm = () => {
                             id="countries"
                             className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                         >
-                            <option selected></option>
                             <option value="US">Blue</option>
                             <option value="CA">Black</option>
                             <option value="FR">White</option>
@@ -174,7 +172,7 @@ export const SellForm = () => {
                         ></textarea>
                     </label>
                 </div>
-                <Button title="Send Message" action={onSubmit} />
+                <Button title="Send Message" />
             </form>
         </div>
     )
