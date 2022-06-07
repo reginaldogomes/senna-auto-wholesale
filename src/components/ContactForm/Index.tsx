@@ -25,7 +25,6 @@ export const ContactForm: React.FC = () => {
     const {
         register,
         handleSubmit,
-        reset,
         formState: { errors }
     } = useForm<UserSubmitForm>({
         resolver: yupResolver(validationSchema)
