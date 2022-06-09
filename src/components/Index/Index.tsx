@@ -59,9 +59,12 @@ const Index = () => {
                     <ul className="flex flex-wrap shrink lg:flex-nowrap">
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
                             <FaWhatsapp className="m-auto text-7xl text-blue" />
-                            <span className="m-auto text-base text-blue text-center block mt-5">
-                                6031112298
-                            </span>
+                            <a
+                                href="https://api.whatsapp.com/send?phone=16045007794&text=Ol%C3%A1%20seja%20bem%20vindo"
+                                className="m-auto text-base text-blue text-center block mt-5"
+                            >
+                                +1(604)5007794
+                            </a>
                         </li>
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
                             <FiMail className="m-auto text-7xl text-blue" />
@@ -72,7 +75,7 @@ const Index = () => {
                         <li className="w-full bg-yellow bg-opacity-7 m-2 rounded p-10">
                             <FaPhone className="m-auto text-7xl text-blue" />
                             <span className="m-auto text-base text-blue text-center block mt-5">
-                                6031112298
+                                +1(604)5007794
                             </span>
                         </li>
                     </ul>
