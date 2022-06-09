@@ -96,7 +96,7 @@ export const ContactForm: React.FC = () => {
                         </div>
                     </label>
                 </div>
-                <Button title="Send Message" state={!errors} />
+                <Button title="Send Message" />
             </form>
         </div>
     )
